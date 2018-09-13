@@ -64,8 +64,8 @@ const styles = theme => ({
     fontWeight: theme.typography.fontWeightMedium,
   },
   hidden: {
-    opacity: 0,
-    pointerEvents: 'none',
+    // opacity: 0,
+    // pointerEvents: 'none',
   },
   current: {
     color: theme.palette.primary.main,

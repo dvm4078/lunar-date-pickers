@@ -25,8 +25,8 @@ class DayWrapper extends PureComponent {
     } = this.props;
     return (
       <div
-        onClick={dayInCurrentMonth && !disabled ? this.handleClick : undefined}
-        onKeyPress={dayInCurrentMonth && !disabled ? this.handleClick : undefined}
+        onClick={this.handleClick}
+        onKeyPress={this.handleClick}
         role="presentation"
         {...other}
       >
