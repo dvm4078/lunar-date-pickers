@@ -43,10 +43,10 @@ class Day extends PureComponent {
         tabIndex={hidden || disabled ? -1 : 0}
         {...other}
       >
-        <div style={{ fontSize: 16, fontWeight: 900 }}>
+        <div style={{ fontSize: 18, fontWeight: 900 }}>
           {lunar.day === 1 ? `${lunar.day}/${lunar.month === 1 ? `${lunar.month}N` : lunar.month}` : lunar.day}
         </div>
-        <div>
+        <div style={{ fontSize: 10 }}>
           {children}
         </div>
       </div>
@@ -57,7 +57,7 @@ class Day extends PureComponent {
 const styles = theme => ({
   day: {
     width: 36,
-    height: 36,
+    height: 40,
     fontSize: theme.typography.caption.fontSize,
     margin: '0 2px',
     color: theme.palette.text.primary,
