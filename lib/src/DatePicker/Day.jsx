@@ -57,16 +57,16 @@ class Day extends PureComponent {
 const styles = theme => ({
   day: {
     width: 36,
-    height: 40,
+    height: 36,
     fontSize: theme.typography.caption.fontSize,
     margin: '0 2px',
     color: theme.palette.text.primary,
     fontWeight: theme.typography.fontWeightMedium,
   },
-  // hidden: {
-  //   opacity: 0,
-  //   pointerEvents: 'none',
-  // },
+  hidden: {
+    opacity: 0,
+    pointerEvents: 'none',
+  },
   current: {
     color: theme.palette.primary.main,
     fontWeight: 600,
