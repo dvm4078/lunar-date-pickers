@@ -1,6 +1,6 @@
 {
   "name": "material-ui-pickers-lunar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Lunar Date picker custom from material-ui-pickers",
   "main": "build/dist/material-ui-pickers.cjs.js",

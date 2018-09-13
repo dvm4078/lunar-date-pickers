@@ -33,7 +33,12 @@ class Day extends PureComponent {
     });
     return (
       <div
-        style={{ display: 'flex', flexDirection: 'column', textAlign: 'center' }}
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          textAlign: 'center',
+          fontFamily: 'monospace',
+        }}
         className={className}
         tabIndex={hidden || disabled ? -1 : 0}
         {...other}
